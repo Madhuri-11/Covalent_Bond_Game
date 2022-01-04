@@ -1,0 +1,16 @@
+{
+  "name": "chemistry-project-covalent-3",
+  "version": "0.0.1",
+  "description": " Covalent Bond",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && webpack-dev-server --port=8000"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.11.0",
+    "webpack": "^3.4.1",
+    "raw-loader": "^0.5.1",
+    "phaser": "^3.3.0"
+  }
+}
